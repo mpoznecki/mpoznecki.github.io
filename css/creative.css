@@ -29,7 +29,10 @@ a:hover {
   color: #f05f40;
 }
 
-h1,
+h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: white;
+}
 h2,
 h3,
 h4,
@@ -48,6 +51,10 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.text-brown {
+  color: rgba(226, 85, 53, 0.986);
 }
 
 section {
@@ -175,6 +182,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  color: black;
 }
 
 header.masthead hr {
@@ -184,6 +192,7 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
+  color: #b35900;
 }
 
 header.masthead p {
@@ -234,7 +243,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -298,15 +307,15 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: rgb(241, 172, 157);
+  border-color: rgb(235, 164, 149);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #e6a798 !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
-  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+  box-shadow: 0 0 0 0.2rem rgba(238, 181, 168, 0.5) !important;
 }
