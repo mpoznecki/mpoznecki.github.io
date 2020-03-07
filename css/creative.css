@@ -30,9 +30,9 @@ a:hover {
 }
 
 h1 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  color: white;
+  color: #12345;
 }
+
 h2,
 h3,
 h4,
@@ -192,7 +192,7 @@ header.masthead hr {
 
 header.masthead h1 {
   font-size: 2rem;
-  color: #b35900;
+  color: #b31900;
 }
 
 header.masthead p {
